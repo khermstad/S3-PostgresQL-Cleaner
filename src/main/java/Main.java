@@ -70,7 +70,7 @@ public class Main{
 
         String selectRejectedTracksSQL = "SELECT * from TRACKS WHERE rejected = TRUE";
 
-        ArrayList<String> tracksToDelete = new ArrayList<>();
+        ArrayList<String> tracksToDelete = new ArrayList<String>();
 
         try {
             statement = dbConnection.createStatement();

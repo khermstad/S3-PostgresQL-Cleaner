@@ -4,3 +4,4 @@
 /src/main/resources/postgres.properties
 /src/main/resources/s3.properties
 /target/
+/out/
